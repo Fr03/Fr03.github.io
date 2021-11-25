@@ -1,0 +1,38 @@
+nav{
+  border:1px solid black;
+  text-align:center;
+  color: white;
+}
+
+.bouton{
+  display: inline-block;
+  padding: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 3px;
+  margin-right: 3px;
+  background-color: rgb(18, 134, 99, 7);
+   /* hsl(100,50%,50% */
+}
+.bouton > ul{
+  display: none;
+  background-color: rgb(26, 39, 17, 7);
+  position: absolute;
+  transform: translate(-30px, 10px);
+}
+.bouton:hover{
+  background-color:rgb(18, 134, 99, 7); 
+}
+.bouton:hover > ul{
+  display: block;
+}
+.bouton > ul >li{
+  padding: 20px;
+}
+.bouton > ul > li:hover{
+  background-color:rgb(18, 134, 99, 10) ;
+}
+ nav ul{
+  list-style: none;
+  padding: 0px;
+}
