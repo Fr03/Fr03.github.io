@@ -1,0 +1,84 @@
+nav{
+  border:1px solid black;
+  text-align:center;
+  color: white;
+}
+
+.bouton{
+  display: inline-block;
+  padding: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 3px;
+  margin-right: 3px;
+  background-color: rgb(18, 134, 99, 7);
+   /* hsl(100,50%,50% */
+}
+.bouton > ul{
+  display: none;
+  background-color: rgb(26, 39, 17, 7);
+  position: absolute;
+  /* pour empêcher un décalage:transform: ; */
+  transform: translate(-30px, 10px);
+}
+.bouton:hover{
+  background-color:rgb(18, 134, 99, 7); 
+}
+.bouton:hover > ul{
+  display: block;
+}
+.bouton > ul >li{
+  padding: 20px;
+}
+.bouton > ul > li:hover{
+  background-color:rgb(18, 134, 99, 10) ;
+}
+ nav ul
+{
+  list-style: none;
+  padding: 0px;
+}
+table
+{
+  padding: 70px;
+  display: inline-block;
+}
+body{
+  background-color: rgb(100, 49, 49);
+}
+body nav
+{
+  background-color: rgb(151, 84, 84);
+}
+
+td 
+{
+  
+  text-align: center;
+  background-color: rgb(80, 79, 80) ;
+}
+td + td
+{
+  
+  background-color: rgb(84, 186, 211);
+}
+h1
+{
+  text-align: center;
+}
+a:link
+{
+  color: white;
+}
+a:visited
+{
+  color:white;
+}
+a:active
+{
+  color: white;
+}
+tr  >td > h1
+{
+  background-color: rgba(245, 216, 100, 0.247);
+}
